@@ -65,4 +65,6 @@ Currently, the user can go through the readme file and try this out, and it will
 
 Overall, I think I really enjoyed this process, and although it was very challenging for me to understand how to actually train a model, I am happy with my final outcome, and i hope to further exapnd on this project on the future!
 
-[This is a youtube video link of a demonstration of how my model works on two different examples](video link)
+## Video
+
+[This is a youtube video link of a demonstration of how my model works](https://www.youtube.com/watch?v=Z7oWlMCnnb0)
