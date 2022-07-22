@@ -1,6 +1,8 @@
 
 # Garbage Classification
 
+Here is the download link to the final trained model that I was not able to upload: https://download1082.mediafire.com/dq62f0mvpo1g/4fs9ucsc5gwxlzi/resnet18.onnx
+
 ## Description
 This project trains the resnet-18 network, to create a model that is better suited to classify different images of garbage. The classes are: white-glass, green-glass, brown-glass, battery, biological, cardboard, plastic, paper, trash, metal, shoes, and clothes. Based on the image that is provided, after completing the project, the given image is classified into one of these classes. 
 
