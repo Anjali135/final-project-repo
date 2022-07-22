@@ -8,7 +8,7 @@ This project trains the resnet-18 network, to create a model that is better suit
 
 Although this project does not have a huge impact, it is a useful project. It allows the user to upload a picture of an item they are unsure about, and in return they find out what it is classified as, so that they can then properly recycle that item. As global warming, climate change, and harm to the envirnment keep on happening, it is important for us to be aware of how we dispose of our belongings and objects that we use, therefore this can help people find out what and how to get rid of an item such as a can of coke, or even an old pair of shorts.
 
-[example of the visual output when a picture cardboard is sent](https://i.imgur.com/xl3rInS.jpg)
+[example of the visual output when a picture of cardboard is sent](https://i.imgur.com/xl3rInS.jpg)
 
 ## The Algorithm
 
@@ -51,6 +51,8 @@ Outputting the data:
 ## Results
 Below are some images of what the output results look like, there are a few more examples in the "output examples" folder:
 [Example of an image of a shoe given, and then the output being the result "shoes".](https://i.imgur.com/QJg6HNQ.jpg)
+
+[This is a screenshot of the results for the accuracy for when the model was put through the validation data](https://i.imgur.com/UuKtobK.png)
 
 ## Conclusion and next steps
 Overall, I think that the project was successful to some extent. I was able to train the resnet18 model, and when I send images through the model, I seem to be getting correct results most of the time. However, there are many errors with this model, as can be seen in the output examples, where one of teh examples shows a picture of a glass bottle but the result says it is classified as plastic. Although this seems like a logcal error, because plastic and glass look similar, after 20 epochs of training it is an expected result. 
