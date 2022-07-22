@@ -43,10 +43,10 @@ Exporting the model
 4. There should be a model named resnet18.onnx in jetson-inference/python/training/classification/models/garbage_classification.
 
 Outputting the data:
-14. To see the overall accuracy of the trained model, go to the jetson-inference/python/training/classification, and type: python3 train.py -e --model-dir=models/final_project data/garbage-data-main.
-15. You should be able to see the accuracy from the validation data.
-16. In order to get a visual representation of the data, in your home terminal, type: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/image.jpg name.jpg
-17. The image should now be saved on your laptop, with the label of what it is. 
+1. To see the overall accuracy of the trained model, go to the jetson-inference/python/training/classification, and type: python3 train.py -e --model-dir=models/final_project data/garbage-data-main.
+2. You should be able to see the accuracy from the validation data.
+3. In order to get a visual representation of the data, in your home terminal, type: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/image.jpg name.jpg
+4. The image should now be saved on your laptop, with the label of what it is. 
 
 ## Results
 Below are some images of what the output results look like, there are a few more examples in the "output examples" folder:
