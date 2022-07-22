@@ -51,5 +51,14 @@ Below are some images of what the output results look like, there are a few more
 [Example of an image of a shoe given, and then the output being the result "shoes".](https://i.imgur.com/QJg6HNQ.jpg)
 
 ## Conclusion and next steps
+Overall, I think that the project was successful to some extent. I was able to train the resnet18 model, and when I send images through the model, I seem to be getting correct results most of the time. However, there are many errors with this model, as can be seen in the output examples, where one of teh examples shows a picture of a glass bottle but the result says it is classified as plastic. Although this seems like a logcal error, because plastic and glass look similar, after 20 epochs of training it is an expected result. 
 
-[View a video explanation here](video link)
+The accuracy is also relatively low, for acc@1 it being about 10, and for acc@5 it being around 40. This is not that bad, because with more training and more tweaking of the parameters and different settings, the model can be trained faster and for a longer time. 
+
+The next steps would be to simply train the model for many more cycles, to get the accuracy percentage to be around 80%, and then to explore different ways of icorporating this trained resnet18 model into a proper real life scenario.
+
+Currently, the user can go through the readme file and try this out, and it will help them classifcy different garbage pieces, but more realistically, with more refinement and time given to the project, this could be applied even to an application.
+
+Overall, I think I really enjoyed this process, and although it was very challenging for me to understand how to actually train a model, I am happy with my final outcome, and i hope to further exapnd on this project on the future!
+
+[This is a youtube video link of a demonstration of how my model works on two different examples](video link)
