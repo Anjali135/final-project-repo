@@ -37,10 +37,10 @@ Training:
 9. Allow the resnet-18 model to train for at least 10 epochs, but the more training that is done, the better.
 
 Exporting the model
-10. Make sure the onnx_export.py file is on the jetson, if not do that first.
-11. Stay in the jetson-inference/python/training/classification folder
-12. Run: python3 onnx_export.py --model-dir=models/garbage_classification
-13. There should be a model named resnet18.onnx in jetson-inference/python/training/classification/models/garbage_classification
+1. Make sure the onnx_export.py file is on the jetson, if not do that first.
+2. Stay in the jetson-inference/python/training/classification folder.
+3. Run: python3 onnx_export.py --model-dir=models/garbage_classification.
+4. There should be a model named resnet18.onnx in jetson-inference/python/training/classification/models/garbage_classification.
 
 Outputting the data:
 14. To see the overall accuracy of the trained model, go to the jetson-inference/python/training/classification, and type: python3 train.py -e --model-dir=models/final_project data/garbage-data-main.
